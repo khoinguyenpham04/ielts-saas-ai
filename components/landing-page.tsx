@@ -7,9 +7,11 @@ import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { CheckCircle, Mic, PenTool, BookOpen, Play, Menu, X } from "lucide-react"
+import Image from "next/image"
 import { Logo } from "./logo"
 import FeatureCarousel from './feature-carousel'
 import Testimonials from "./Testimonials"
+import { ContainerScroll } from "./ui/container-scroll-animation"
 
 export function LandingPageComponent() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -108,8 +110,33 @@ export function LandingPageComponent() {
               </div>
             </div>
           </div>
+
+          <div className="flex flex-col overflow-hidden">
+      <ContainerScroll
+        titleComponent={
+          <>
+            <h1 className="text-4xl font-semibold text-black dark:text-white">
+              Unleash the power of <br />
+              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+                Scroll Animations
+              </span>
+            </h1>
+          </>
+        }
+      >
+        <Image
+              src={``}
+              alt="hero"
+              height={720}
+              width={1400}
+              className="mx-auto rounded-2xl object-cover h-full object-left-top"
+              draggable={false}
+            />
+      </ContainerScroll>
+        </div>
+
         </section>
-        <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section id="features" className="w-full py-9 md:py-24 lg:py-32 bg-muted">
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Powerful Features for Your IELTS Success</h2>
               <FeatureCarousel />
@@ -139,8 +166,8 @@ export function LandingPageComponent() {
               </div>
             </div>
           </div>
-        
         </section>
+        
         <section id="testimonials">
           <Testimonials />
         </section>

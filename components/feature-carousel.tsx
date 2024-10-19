@@ -58,7 +58,7 @@ export default function FeatureCarousel() {
   }
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto overflow-hidden bg-gray-100 py-6">
+    <div className="relative w-full max-w-4xl mx-auto overflow-hidden bg-gray-100 py-10">
       <div
         className="flex transition-transform duration-300 ease-in-out"
         style={{
@@ -91,7 +91,7 @@ export default function FeatureCarousel() {
           </Card>
         ))}
       </div>
-      <div className="absolute bottom-3 right-3 flex space-x-2">
+      <div className="absolute bottom-5 right-3 flex space-x-2">
         <Button
           variant="outline"
           size="icon"
