@@ -9,8 +9,8 @@ const Testimonials = () => {
           <Card>
             <CardContent className="p-6">
               <p className="mb-4">
-                "This AI tool helped me improve my IELTS writing score from 6.5 to 7.5 in just a month! The feedback is
-                incredibly detailed and helpful."
+                &quot;This AI tool helped me improve my IELTS writing score from 6.5 to 7.5 in just a month! The feedback is
+                incredibly detailed and helpful.&quot;
               </p>
               <p className="font-semibold">- Sarah K., Band 7.5</p>
             </CardContent>
@@ -18,7 +18,7 @@ const Testimonials = () => {
           <Card>
             <CardContent className="p-6">
               <p className="mb-4">
-                "The speaking practice feature is a game-changer. It's like having a personal IELTS tutor available 24/7."
+                &quot;The speaking practice feature is a game-changer. It&apos;s like having a personal IELTS tutor available 24/7.&quot;
               </p>
               <p className="font-semibold">- Ahmed M., Band 8</p>
             </CardContent>
@@ -26,7 +26,7 @@ const Testimonials = () => {
           <Card>
             <CardContent className="p-6">
               <p className="mb-4">
-                "I love how the AI provides instant feedback. It's helped me identify and correct my mistakes quickly."
+                &quot;I love how the AI provides instant feedback. It&apos;s helped me identify and correct my mistakes quickly.&quot;
               </p>
               <p className="font-semibold">- Li Wei, Band 7</p>
             </CardContent>

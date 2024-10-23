@@ -3,15 +3,14 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { CheckCircle, Mic, PenTool, BookOpen, Play, Menu, X } from "lucide-react"
+import { CheckCircle, Play, Menu, X } from "lucide-react"
 import Image from "next/image"
 import { Logo } from "./logo"
-import FeatureCarousel from './feature-carousel'
 import Testimonials from "./Testimonials"
 import { ContainerScroll } from "./ui/container-scroll-animation"
+import { AppleCardsCarouselDemo } from "./AppleCardsCarouselDemo"
 
 export function LandingPageComponent() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -91,12 +90,13 @@ export function LandingPageComponent() {
         )}
       </header>
       <main className="flex-1">
+
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Ace Your IELTS Writing and Speaking with AI-Powered Assessments
+                  Ace Your IELTS with AI-Powered Assessments
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   Get instant feedback on your IELTS writing and speaking, improve your scores, and achieve your dream IELTS band.
@@ -112,35 +112,40 @@ export function LandingPageComponent() {
           </div>
 
           <div className="flex flex-col overflow-hidden">
-      <ContainerScroll
-        titleComponent={
-          <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
-            Master Your IELTS skills <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                your new AI assistant
-              </span>
-            </h1>
-          </>
-        }
-      >
-        <Image
-              src={`/images/example.png`}
-              alt="hero"
-              height={720}
-              width={1400}
-              className="mx-auto rounded-2xl object-cover h-full object-left-top"
-              draggable={false}
-            />
-      </ContainerScroll>
-        </div>
-
+            <ContainerScroll
+              titleComponent={
+                <>
+                  <h1 className="text-4xl font-semibold text-black dark:text-white">
+                  Master Your IELTS skills <br />
+                    <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+                      your new AI assistant
+                    </span>
+                  </h1>
+                </>
+              }
+            >
+              <Image
+                    src={`/images/example.png`}
+                    alt="hero"
+                    height={720}
+                    width={1400}
+                    className="mx-auto rounded-2xl object-cover h-full object-left-top"
+                    draggable={false}
+                  />
+            </ContainerScroll>
+            
+          </div>
         </section>
-        <section id="features" className="w-full py-9 md:py-24 lg:py-32 bg-muted">
+
+        {/* <section id="features" className="w-full py-9 md:py-24 lg:py-32 bg-muted">
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Powerful Features for Your IELTS Success</h2>
               <FeatureCarousel />
           </div>
+        </section> */}
+
+        <section id="features">
+            <AppleCardsCarouselDemo />
         </section>
         
         <section id="how-it-works" className="w-full py-12 md:py-24 lg:py-32">
@@ -159,20 +164,17 @@ export function LandingPageComponent() {
                   Receive detailed feedback on coherence, grammar, pronunciation, and vocabulary.
                 </p>
               </div>
+              
               <div className="flex flex-col items-center space-y-2 border-t pt-4">
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-muted">3</div>
-                <h3 className="text-xl font-bold">Review, improve, and track progress</h3>
+                <h3 className="text-xl font-bold">Review and track progress</h3>
                 <p className="text-center text-muted-foreground">Analyze your performance and see your improvement over time.</p>
               </div>
             </div>
           </div>
         </section>
-        
-        <section id="testimonials">
-          <Testimonials />
-        </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section id="video-demo" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -192,6 +194,11 @@ export function LandingPageComponent() {
             </div>
           </div>
         </section>
+
+        <section id="testimonials">
+          <Testimonials />
+        </section>
+
         <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Choose Your Plan</h2>

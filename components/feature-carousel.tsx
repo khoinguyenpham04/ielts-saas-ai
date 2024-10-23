@@ -10,7 +10,7 @@ const features = [
     category: "Writing",
     title: "AI-Powered Essay Feedback",
     description: "Get instant, detailed feedback on your IELTS essays.",
-    image: "/images/ai-writing.webp"
+    image: "/images/vertical-students-studying.jpg"
   },
   {
     category: "Speaking",
@@ -28,7 +28,7 @@ const features = [
     category: "Reading",
     title: "Smart Reading Comprehension",
     description: "Enhance your reading speed and comprehension with AI-guided exercises.",
-    image: "/images/vertical-students-studying.jpg"
+    image: "/images/ai-writing.webp"
   }
 ]
 
