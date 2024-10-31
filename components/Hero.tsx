@@ -1,4 +1,3 @@
-// components/Hero.tsx
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
@@ -10,8 +9,10 @@ export function Hero() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
-              Ace Your IELTS with AI-Powered Assessments
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-6xl lg:text8xl/none bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
+              Ace Your IELTS with
+              <span className="inline bg-gradient-to-r font-bold from-indigo-500 dark:from-indigo-200 dark:via-sky-400 dark:to-indigo-200 via-sky-600 to-indigo-400 bg-clip-text font-display text-3xl  sm:text-4xl lg:text-6xl tracking-tight text-transparent "> AI-Powered  </span> 
+              Assessments
             </h1>
             <p className="mx-auto md:text-xl text-[#010D3E] tracking-tight mt-6 max-w-[700px]"> 
               Get instant feedback on your IELTS writing and speaking, improve your scores, and achieve your dream IELTS band.

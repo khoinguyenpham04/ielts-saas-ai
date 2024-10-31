@@ -92,7 +92,7 @@ export function LandingPageComponent() {
       </header>
 
       <main className="flex-1">
-        <Hero/>
+        <Hero />
 
         {/* <section id="features" className="w-full py-9 md:py-24 lg:py-32 bg-muted">
           <div className="container mx-auto px-4 md:px-6">
