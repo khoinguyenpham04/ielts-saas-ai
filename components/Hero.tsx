@@ -24,7 +24,7 @@ export function Hero() {
               <span>
                 Learn More
               </span>
-                <ArrowRight size={25} className="mr-1"/>
+              <ArrowRight size={25} className="mr-1" />
             </Button>
           </div>
         </div>
