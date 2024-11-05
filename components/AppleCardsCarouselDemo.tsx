@@ -11,7 +11,7 @@ export function AppleCardsCarouselDemo() {
   return (
     <div className="w-full h-full">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-      Powerful Features for Your IELTS Success
+      Powerful Features for Your Speaking Success
       </h2>
       <Carousel items={cards} />
     </div>
@@ -52,27 +52,33 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Writing",
-    title: "Get instant, detailed feedback on your IELTS essays.",
+    category: "",
+    title: "🎯 Authentic IELTS-style questions",
     src: "/images/landscape-people-studying.jpg",
-    content: <DummyContent />,
+    content: '',
   },
   {
-    category: "Speaking",
-    title: "Practice your speaking skills with our AI interviewer.",
+    category: "",
+    title: "🗣️ Natural conversation flow",
     src: "/images/ai-speaking.webp",
-    content: <DummyContent />,
+    content: '',
   },
   {
-    category: "Listening",
-    title: "Improve your listening skills with personalized exercises.",
+    category: "",
+    title: "📈 Detailed performance analytics",
     src: "/images/vertical-people-collab.jpg",
-    content: <DummyContent />,
+    content: '',
   },
   {
-    category: "Reading",
-    title: "Enhance your reading speed and comprehension with AI-guided exercises.",
+    category: "",
+    title: "💡  Personalized improvement tips",
     src: "/images/vertical-students-studying.jpg",
-    content: <DummyContent />,
+    content: '',
+  },
+  {
+    category: "",
+    title: "💪  Confidence building",
+    src: "/images/landscape-people-studying.jpg",
+    content: '',
   },
 ];
