@@ -179,7 +179,7 @@ export function LandingPageComponent() {
               <AccordionItem value="item-1">
                 <AccordionTrigger>How does the AI speaking practice work?</AccordionTrigger>
                 <AccordionContent>
-                  Our AI speaking assistant uses OpenAI&apos;s latest real-time audio technology to create natural, examiner-like conversations. It follows the official IELTS format with all three parts: personal questions, cue cards, and in-depth discussions. You&apos;ll receive instant feedback on your performance, including detailed scoring for fluency, pronunciation, grammar, and vocabulary range.
+                  Our AI speaking assistant uses latest audio technology to create natural, examiner-like conversations. It follows the official IELTS format with all three parts: personal questions, cue cards, and in-depth discussions. You&apos;ll receive instant feedback on your performance, including detailed scoring for fluency, pronunciation, grammar, and vocabulary range.
                 </AccordionContent>
               </AccordionItem>
               
