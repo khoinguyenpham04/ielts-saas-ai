@@ -124,7 +124,7 @@ export function LandingPageComponent() {
                 </div>
                 <h3 className="text-xl font-bold">Get Real-Time AI Feedback</h3>
                 <p className="text-center text-muted-foreground">
-                  Receive instant analysis of your fluency, pronunciation, grammar, and vocabulary using OpenAI's latest real-time audio technology.
+                  Receive instant analysis of your fluency, pronunciation, grammar, and vocabulary using latest audio technology.
                 </p>
               </div>
               
@@ -179,7 +179,7 @@ export function LandingPageComponent() {
               <AccordionItem value="item-1">
                 <AccordionTrigger>How does the AI speaking practice work?</AccordionTrigger>
                 <AccordionContent>
-                  Our AI speaking assistant uses OpenAI's latest real-time audio technology to create natural, examiner-like conversations. It follows the official IELTS format with all three parts: personal questions, cue cards, and in-depth discussions. You'll receive instant feedback on your performance, including detailed scoring for fluency, pronunciation, grammar, and vocabulary range.
+                  Our AI speaking assistant uses OpenAI&apos;s latest real-time audio technology to create natural, examiner-like conversations. It follows the official IELTS format with all three parts: personal questions, cue cards, and in-depth discussions. You&apos;ll receive instant feedback on your performance, including detailed scoring for fluency, pronunciation, grammar, and vocabulary range.
                 </AccordionContent>
               </AccordionItem>
               
@@ -200,7 +200,7 @@ export function LandingPageComponent() {
               <AccordionItem value="item-4">
                 <AccordionTrigger>Can it understand different accents?</AccordionTrigger>
                 <AccordionContent>
-                  Yes! Our AI is trained to understand a wide variety of accents and speaking patterns. The system adapts to your speaking style while providing feedback to help you improve clarity and pronunciation according to IELTS standards. Whether you're from Asia, Europe, Africa, or anywhere else, our AI can understand and help you improve your English speaking skills.
+                  Yes! Our AI is trained to understand a wide variety of accents and speaking patterns. The system adapts to your speaking style while providing feedback to help you improve clarity and pronunciation according to IELTS standards. Whether you&apos;re from Asia, Europe, Africa, or anywhere else, our AI can understand and help you improve your English speaking skills.
                 </AccordionContent>
               </AccordionItem>
 
