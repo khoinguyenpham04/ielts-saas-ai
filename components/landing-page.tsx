@@ -93,6 +93,7 @@ export function LandingPageComponent() {
               <FeatureCarousel />
           </div>
         </section> */}
+        <div className="h-2px bg-gradient-to-r from-indigo-500 via-sky-600 to-indigo-400 dark:from-indigo-200 dark:via-sky-400 dark:to-indigo-200 font-bold"></div>
 
         <section id="features">
             <AppleCardsCarouselDemo />
